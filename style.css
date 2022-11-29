@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #1c6758;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.main-nav .logo {
+  width: 110px;
+}
+
+.main-nav ul {
+  display: flex;
+}
+.main-nav ul li {
+  padding: 0 10px;
+}
+.main-nav ul li a {
+  font-size: 1.3em;
+}
+
+.main-nav ul.main-menu {
+  /* flex: 1; */
+  margin-left: 20px;
+}
+
+.btn {
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), #3d8361);
+
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1c6758;
+}
+.hero .img img {
+  width: 500px;
+}
+.hero .text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero .text p {
+  font-weight: 300;
+}
+.hero .text .btn {
+  width: 170px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.hero .text .btn a {
+  color: #fff;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  color: #1c6758;
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-left: 1.8em;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+p {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  width: 90%;
+
+  margin: auto 50px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 4em;
+}
+.box img {
+  width: 500px;
+}
+.box .text {
+  padding: 5em;
+}
+.btn {
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), #1c6758);
+
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 12px;
+  width: 170px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+.icon {
+  position: fixed;
+  color: #1c6758;
+}
+.btn.home {
+  background: hsl(136, 65%, 51%);
+  padding: 1em 1.5em;
+  font-size: 0.8em;
+  width: 130px;
+  border-radius: 2rem;
+  font-weight: 700;
+  text-align: center;
+  position: fixed;
+  margin-left: -40px;
+}
